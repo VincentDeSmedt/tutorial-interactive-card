@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+
 :root {
   /* color scheme */
   --white: hsl(0, 0%, 100%);
@@ -8,14 +10,17 @@
   --gradient-from: hsl(249, 99%, 64%);
   --gradient-to: hsl(278, 94%, 30%);
 
+  /* Font settings */
   font-family: "Space Grotesk", sans-serif;
   font-weight: 500;
   font-size: 18px;
 
+  /* Default color settings */
   color-scheme: light dark;
   color: var(--violet-light);
   background-color: var(--violet-dark);
 
+  /* Vite fonts presets */
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -28,6 +33,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-size: 1.5rem;
 }
 
 @media (prefers-color-scheme: light) {
